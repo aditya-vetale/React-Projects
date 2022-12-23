@@ -3,7 +3,6 @@ import "./App.css";
 
 function App() {
   const [temperature, setTemperature] = useState(0);
-  const [temperatureColor, setTemperatureColor] = useState("cold");
   function increment() {
     setTemperature(temperature + 1);
   }
