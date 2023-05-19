@@ -1,6 +1,6 @@
 .button {
-  height: 5vh;
-  width: 3vw;
+  height: 10vh;
+  width: 5vw;
   background-color: #e0e1e6;
   text-align: center;
   color: #888888;
@@ -9,8 +9,8 @@
 }
 
 .operator {
-  height: 5vh;
-  width: 3vw;
+  height: 10vh;
+  width: 5vw;
   outline: 1px solid #888888;
   border: none;
   background-color: orange;
@@ -18,10 +18,15 @@
 }
 
 .input {
-  height: 5vh;
-  width: 12vw;
-  background-color: black;
+  height: 10vh;
+  width: 20vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  background-color: #000000;
+  color: #ffffff;
+  /* padding: 0.5em; */
   outline: 1px solid #888888;
-  color: white;
-  text-align: right;
 }
