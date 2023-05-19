@@ -1,0 +1,27 @@
+.button {
+  height: 5vh;
+  width: 3vw;
+  background-color: #e0e1e6;
+  text-align: center;
+  color: #888888;
+  outline: 1px solid #888888;
+  border: none;
+}
+
+.operator {
+  height: 5vh;
+  width: 3vw;
+  outline: 1px solid #888888;
+  border: none;
+  background-color: orange;
+  color: white;
+}
+
+.input {
+  height: 5vh;
+  width: 12vw;
+  background-color: black;
+  outline: 1px solid #888888;
+  color: white;
+  text-align: right;
+}
